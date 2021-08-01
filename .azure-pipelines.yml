@@ -1,27 +1,25 @@
 trigger:
   branches:
-    include: [ '*' ]
     exclude: [ gh-pages, master ]
   paths:
     exclude:
-    - 'docs/**'
-    - '.github/**'
+    - 'docs/'
+    - '.github/'
     - 'LICENSE'
-    - 'README.md'
+    - '*.md'
     - '.appveyor.yml'
-    - '.travis.yml'
+    - '.drone.yml'
 pr:
   branches:
-    include: [ '*' ]
     exclude: [ gh-pages, master ]
   paths:
     exclude:
-    - 'docs/**'
-    - '.github/**'
+    - 'docs/'
+    - '.github/'
     - 'LICENSE'
-    - 'README.md'
+    - '*.md'
     - '.appveyor.yml'
-    - '.travis.yml'
+    - '.drone.yml'
 
 pool:
   vmImage: windows-latest
