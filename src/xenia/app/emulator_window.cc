@@ -41,7 +41,7 @@ using xe::ui::MenuItem;
 using xe::ui::MouseEvent;
 using xe::ui::UIEvent;
 
-const std::string kBaseTitle = "Xenia-canary";
+const std::string kBaseTitle = "Xenia-canary (Unofficial SWA Hack, do NOT ask Xenia developers for tech support!)";
 
 EmulatorWindow::EmulatorWindow(Emulator* emulator,
                                ui::WindowedAppContext& app_context)
